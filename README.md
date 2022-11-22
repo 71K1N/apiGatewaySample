@@ -1,11 +1,12 @@
 # apiGatewaySample
 An api gateway sample using Express Gateway
 
-PORTS:
+## PORTS:
 
-gateway:8080
-user:3001
-products:3002
+* gateway:8080
+* user:3001
+* products:3002
 
 
-docker compose up
+## RUN
+> docker compose up
