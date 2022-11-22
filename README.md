@@ -1,6 +1,10 @@
 # apiGatewaySample
 An api gateway sample using Express Gateway
 
+## Using:
+* Express js
+* Express Gateway
+* Docker
 ## PORTS:
 
 * gateway:8080
