@@ -17,9 +17,9 @@ serviceEndpoints:
   httpbin:
     url: "https://httpbin.org"
   userService:
-    url: "http://users:3001"
+    url: "http://APIuser:3001"
   productService:
-    url: "http://podutos:3002"
+    url: "http://APIprod:3002"
 policies:
   - basic-auth
   - cors

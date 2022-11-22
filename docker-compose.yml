@@ -1,14 +1,20 @@
 version: "3.9" # optional since v1.27.0
 services:
-  gateway:
-    build: ./expressGateway/
+  apigateway:
+    build: ./APIgateway/
+    image: test/apigateway:v1
+    container_name: apigateway
     ports:
       - "8080:8080"
-  podutos:
-    build: ./productsAPI/
+  apiprod:
+    build: ./APIprod/
+    image: test/apiprod:v1
+    container_name: apiprod
     ports:
       - "3002:3002"
-  users:
-    build: ./userAPI/
+  apiuser:
+    build: ./APIuser/
+    image: test/apiuser:v1
+    container_name: apiuser
     ports:
       - "3001:3001"
