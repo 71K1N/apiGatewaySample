@@ -1,4 +1,3 @@
-image.png
 # apiGatewaySample
 An api gateway sample using Express Gateway
 
