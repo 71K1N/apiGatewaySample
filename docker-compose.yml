@@ -1,0 +1,14 @@
+version: "3.9" # optional since v1.27.0
+services:
+  gateway:
+    build: ./expressGateway/
+    ports:
+      - "8080:8080"
+  podutos:
+    build: ./productsAPI/
+    ports:
+      - "3002:3002"
+  users:
+    build: ./userAPI/
+    ports:
+      - "3001:3001"
